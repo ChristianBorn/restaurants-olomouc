@@ -32,7 +32,7 @@ def gather_links(pages_to_crawl={}):
             print('No Mailaddress %d out of %d' % (not_found_count, len(links)))
     return location_list
 
-#todo: Method to create CSV from dict of mailaddresses
+
 
 def create_csv_from_dict(mail_list):
     if mail_list:
